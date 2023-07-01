@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: slategray;
+}
+.main {
+    border: 2px solid yellow;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(10, 11, 10);
+    margin-top: 20px;
+}
+.name h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: 150;
+}
+b {
+    color: white;
+}
+.links {
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 20px;
+    /* margin-top: 20px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    border-radius: 25PX;
+}
+
